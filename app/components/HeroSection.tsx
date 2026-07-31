@@ -30,7 +30,7 @@ export default function HeroSection() {
         {/* Hero Actions */}
         <div className="flex flex-wrap gap-4">
           <a
-            href="/resume.pdf"
+            href="./resume.pdf"
             download="Abinash_Narendiran_Resume.pdf"
             className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-medium rounded-xl transition-all shadow-lg shadow-emerald-600/20"
           >
@@ -52,7 +52,7 @@ export default function HeroSection() {
 
         <div className="relative z-10 w-64 h-80 sm:w-72 sm:h-96 rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-slate-900 transform hover:scale-[1.02] transition-transform">
           <Image
-            src="/profile.jpeg"
+            src="./profile.jpeg"
             alt="Abinash Narendiran"
             fill
             priority
